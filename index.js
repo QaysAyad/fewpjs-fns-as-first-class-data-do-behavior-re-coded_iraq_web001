@@ -19,3 +19,7 @@ function greet(time) {
   }
 }
 /* Write your implementation of displayMessage() */
+function displayMessage(message) {
+const h1Greeting = document.getElementById('greeting');
+h1Greeting.textContant = message;
+}
