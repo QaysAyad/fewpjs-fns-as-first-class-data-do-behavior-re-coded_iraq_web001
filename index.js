@@ -21,5 +21,5 @@ function greet(time) {
 /* Write your implementation of displayMessage() */
 function displayMessage(message = 'TEST') {
 const h1Greeting = document.getElementById('greeting');
-h1Greeting.textContent = message;
+h1Greeting.innerText = message;
 }
